@@ -2,15 +2,15 @@
 
 #include <iostream>
 
-int fun(int n) {
+int Fun(int n) {
     if (n > 0) {
-        return fun(n - 1) + n;
+        return Fun(n - 1) + n;
     }
     return 0;
 }
 
 int main() {
-    std::cout << "Recursion result: " << fun(3) << std::endl;
+    std::cout << "Recursion result: " << Fun(3) << std::endl;
 
     return 0;
 }
