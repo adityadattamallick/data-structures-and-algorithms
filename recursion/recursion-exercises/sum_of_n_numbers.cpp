@@ -1,3 +1,5 @@
+// Sum of "n" natural numbers
+
 #include <iostream>
 
 int Sum(int n) {
